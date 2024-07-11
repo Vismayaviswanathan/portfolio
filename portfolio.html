@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vismaya V's Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background: #008080;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+            background: #fff;
+            margin: 1rem 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project, .qualification, .skills, .certifications {
+            background: #e0f7f7;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 1rem;
+            background: #e0f7f7;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form label {
+            display: block;
+            margin: 0.5rem 0 0.2rem;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background: #008080;
+            color: #fff;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        form button:hover {
+            background: #006666;
+        }
+        footer {
+            background: #008080;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        footer p, footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        #resume-section {
+            padding: 2rem;
+            text-align: center;
+            background: #e0f7f7;
+            margin: 1rem 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #resume-section iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+        #resume-section a {
+            display: inline-block;
+            margin-top: 1rem;
+            background: #008080;
+            color: #fff;
+            padding: 0.7rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        #resume-section a:hover {
+            background: #006666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vismaya V's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#qualifications">Qualifications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Vismaya V, a BCA graduate from KG College Of Arts And Science, skilled in web development and coding.</p>
+    </section>
+
+   
+
+    <section id="qualifications">
+        <h2>Qualifications</h2>
+        <div class="qualification">
+            <p>BCA from KG College Of Arts And Science, 2025</p>
+            <p>HSC from CMS Matriculation Higher Secondary School, 2022 (86.3%)</p>
+            <p>SSLC from CMS Matriculation Higher Secondary School, 2020 (80.2%)</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <ul>
+                <li>Operating System: Windows, Linux</li>
+                <li>Coding: C, C++, Java, Python</li>
+                <li>Web Development: HTML, CSS</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certifications">
+            <ul>
+                <li>CSS & Bootstrap Mastery by Coursera (July 2024)</li>
+                <li>JavaScript by Coursera (June 2024)</li>
+                <li>Java Built in Data Structure by Coursera (Sep 2023)</li>
+                <li>HTML CSS and JavaScript for web developers by Coursera (June 2024)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Safety Detection Device</h3>
+            <p>Language used: Java</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <div id="resume-section">
+            <!-- <iframe src="/mnt/data/VISMAYA V-Resume.pdf"></iframe> -->
+            <a href="./VISMAYA V-Resume.pdf" download>Download Resume</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vismaya V. All rights reserved.</p>
+        <p>Contact: 9345587099 | Email: <a href="mailto:vismayaviswanathan7105@gmail.com">vismayaviswanathan7105@gmail.com</a></p>
+        <p><a href="https://www.linkedin.com/in/vismaya-v-38b7b627b/" target="_blank">LinkedIn</a></p>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Message sent successfully!');
+            document.getElementById('contact-form').reset();
+        });
+    </script>
+</body>
+</html>
